@@ -18,46 +18,6 @@ function updateScreen() {
 
 
 setWatch(() => {
- 
-
-setWatch(() => {
- counter += 1;
-  if(counter==7){
-    //g.drawImage(require("Storage").read("am.img"),56,27);
-    counter=7;}
-  updateScreen();
-}, BTN1, {repeat:true});
-
-
-setWatch(() => {
-  counter -= 1;
-  g.clear();
-  if(counter==-1){
-    counter=0;}
-  updateScreen();
-}, BTN3, {repeat:true});
-
-
-setWatch(() => {
-  g.clear();
-  counter = 0;
-  updateScreen();
-}, BTN2, {repeat:true});
-
-g.clear(1).setFont("6x8");
-g.drawString(' sobaha', 1, 10);
-
-
-Bangle.loadWidgets();
-Bangle.drawWidgets();
-updateScreen();
-  
-}, BTN1, {clear:true});
-
-//pragram111
-
-/*setWatch(() => {
-setWatch(() => {
   counter += 1;
   if(counter==7){
     //g.drawImage(require("Storage").read("am.img"),56,27);
@@ -80,13 +40,11 @@ setWatch(() => {
   g.clear();
   counter = 0;
   updateScreen();
-}, BTN2, {clear:true});
+}, BTN2, {repeat:true});
 
 g.clear(1).setFont("6x8");
-g.drawString(' counter for twaf', 25, 200);
+//g.drawString(' counter for twaf', 25, 200);
 
 Bangle.loadWidgets();
 Bangle.drawWidgets();
 updateScreen();
-}, BTN3, {clear:true});*/
-
