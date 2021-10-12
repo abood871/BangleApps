@@ -19,9 +19,9 @@ function updateScreen() {
 
 setWatch(() => {
   counter += 1;
-  if(counter==6){
+  if(counter==8){
     //g.drawImage(require("Storage").read("am.img"),56,27);
-    counter=7;
+    counter=8;
   }
   updateScreen();
 }, BTN1, {repeat:true});
