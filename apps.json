@@ -3557,7 +3557,7 @@
 },
 { "id": "timer",
   "name": "sbha",
-  "shortName":"My Timer",
+  "shortName":"sbha",
   "icon": "app.png",
   "version":"0.01",
   "description": "This is a description of my awesome timer app",
