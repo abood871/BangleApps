@@ -19,7 +19,7 @@ function updateScreen() {
 
 setWatch(() => {
   counter += 1;
-  if(counter==7){
+  if(counter==8){
     //g.drawImage(require("Storage").read("am.img"),56,27);
     counter=7;
   }
