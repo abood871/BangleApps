@@ -21,7 +21,7 @@ setWatch(() => {
   counter += 1;
   if(counter==8){
     //g.drawImage(require("Storage").read("am.img"),56,27);
-    counter=8;
+    counter=7;
   }
   updateScreen();
 }, BTN1, {repeat:true});
