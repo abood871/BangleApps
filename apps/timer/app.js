@@ -18,9 +18,10 @@ function updateScreen() {
 
 
 setWatch(() => {
-  counter += 1;
-  if(counter==8){
-    //g.drawImage(require("Storage").read("am.img"),56,27);
+  if(counter!=7){
+  counter += 1;}
+  if(counter==7){
+   g.drawImage(require("Storage").read("am.img"),66,50);
     counter=7;
   }
   updateScreen();
@@ -43,7 +44,7 @@ setWatch(() => {
 }, BTN2, {repeat:true});
 
 g.clear(1).setFont("6x8");
-g.drawString(' counter for twaf', 25, 100);
+//g.drawString(' counter for twaf', 25, 100);
 
 Bangle.loadWidgets();
 Bangle.drawWidgets();
