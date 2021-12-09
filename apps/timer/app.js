@@ -22,8 +22,9 @@ setWatch(() => {
   counter += 1;}
   if(counter==7){
    //g.drawImage(require("Storage").read("am.img"),66,27);
-    g.clear(1).setFont("6x8");
-    g.drawString('Taqabal Allah', 75, 50);
+    //g.clear(1).setFont("6x8");
+    g.drawString('Taqabal', 125, 50);
+    g.drawString('Allah', 125, 100);
     counter=7;
   }
   updateScreen();
