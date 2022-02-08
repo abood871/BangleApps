@@ -3,18 +3,19 @@
   "name":"NONE"
   },
   {
-  "name":"No10",
-  "lat":51.5032,
-  "lon":-0.1269
+  "name":"Al-Kaabah",
+  "lat":21.4225,
+  "lon":39.8261
   },
-  {
-  "name":"Stone",
-  "lat":51.1788,
-  "lon":-1.8260
+    {
+  "name":"Arafat",
+  "lat":21.354434,
+  "lon":39.983819
   },
-  { "name":"WP0" },
-  { "name":"WP1" },
-  { "name":"WP2" },
-  { "name":"WP3" },
-  { "name":"WP4" }
+    {
+  "name":"Mina",
+  "lat":21.413932,
+  "lon":39.894250
+  },
+  
 ]
