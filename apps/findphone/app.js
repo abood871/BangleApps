@@ -36,9 +36,7 @@ setWatch(find, BTN1, {repeat:true});
 
 if (process.env.HWVERSION == 1) {
   setWatch(find, BTN2, {repeat:true});
-  setWatch(find, BTN3, {repeat:true});
-  setWatch(find, BTN4, {repeat:true});
-  setWatch(find, BTN5, {repeat:true});
+ 
 }
 
 if (process.env.HWVERSION == 2) {
