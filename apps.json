@@ -3566,5 +3566,23 @@
     {"name":"timer.app.js","url":"app.js"},
     {"name":"timer.img","url":"app-icon.js","evaluate":true}
   ]
+},
+{
+  "id": "mguide",
+  "name": "Makkah giude",
+  "shortName": "Makkah giude",
+  "version": "0.01",
+  "description": "Makkah navigation and auto Tawaf counter",
+  "icon": "ttt.png",
+  "tags": "tool,outdoors,gps",
+   "supports": ["BANGLEJS"],
+  "interface": "mguide.html",
+  "storage": [
+    {"name":"mguide.app.js","url":"app.js"},
+    {"name":"mguide.img","url":"icon.js","evaluate":true}
+  ],
+  "data": [{"name":"waypoints.json","url":"waypoints.json"}]
 }
+
 ]
+
