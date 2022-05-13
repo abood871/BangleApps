@@ -18,14 +18,32 @@ function updateScreen() {
 
 
 setWatch(() => {
-   if(counter!=7){
-  counter += 1;}
-  if(counter==7){
-   //g.drawImage(require("Storage").read("am.img"),66,27);
-    //g.clear(1).setFont("6x8");
-    g.drawString('Taqabal', 125, 50);
-    g.drawString('Allah', 125, 100);
-    counter=7;
+  g.clear();
+  // if(counter!=7){
+  counter += 1;
+  if(counter==33){
+
+ g.drawString('Taqabal', 125, 50);
+ g.drawString('Allah', 125, 100);
+
+  }
+  if(counter==66){
+
+ g.drawString('Taqabal', 125, 50);
+ g.drawString('Allah', 125, 100);
+
+  }
+  if(counter==99){
+
+ g.drawString('Taqabal', 125, 50);
+ g.drawString('Allah', 125, 100);
+
+  }
+
+//}
+  if(counter==101){
+
+    counter=0;
   }
   updateScreen();
 }, BTN1, {repeat:true});
@@ -52,3 +70,8 @@ g.clear(1).setFont("6x8");
 Bangle.loadWidgets();
 Bangle.drawWidgets();
 updateScreen();
+
+//g.drawImage(require("Storage").read("am.img"),66,27);
+    //g.clear(1).setFont("6x8");
+   //g.drawString('Taqabal', 125, 50);
+    //g.drawString('Allah', 125, 100);
