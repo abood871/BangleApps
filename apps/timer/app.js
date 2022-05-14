@@ -23,20 +23,17 @@ setWatch(() => {
   counter += 1;
   if(counter==33){
 Bangle.buzz(200, 1);
- //g.drawString('Astaghfir', 125, 50);
- //g.drawString('Allah', 125, 100);
+ 
 
   }
   if(counter==66){
 Bangle.buzz(200, 1);
- //g.drawString('Subhan', 125, 50);
- //g.drawString('Allah', 125, 100);
+ 
 
   }
   if(counter==99){
 Bangle.buzz(200, 1);
- //g.drawString('Allah', 125, 100);
- //g.drawString('Akbar', 125, 50);
+ 
 
 
   }
